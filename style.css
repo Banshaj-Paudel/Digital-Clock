@@ -1,0 +1,55 @@
+* {
+    background-color: #476affd4;
+}
+
+.clock {
+    border: 2px solid salmon;
+    height: 69vh;
+    width: 50vw;
+    display: flex;
+    top: 7rem;
+    left: 22rem;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#day {
+    position: absolute;
+    width: 42.4rem;
+    /* border: 2px solid; */
+    top: 5px;
+    /* background-color: red; */
+    display: flex;
+    height: 86px;
+    text-align: center;
+    font-size: 5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#time {
+    color: black;
+    /* border: 2px solid red; */
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    position: relative;
+    top: 2rem;
+    /* font-family: 'Sacramento', cursive; */
+}
+
+#greets {
+    color: black;
+    /* border: 2px solid red; */
+    height: 5rem;
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+}
